@@ -1,0 +1,12 @@
+.similar-job-item-card {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 12px;
+  width: 29%;
+}
+@media screen and (max-width: 577px) {
+  .similar-job-item-card {
+    width: 100%;
+    padding: 15px;
+  }
+}

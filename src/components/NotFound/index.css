@@ -1,0 +1,32 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.not-found-img {
+  width: 40%;
+}
+.not-found-heading {
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.not-found-msg {
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 577px) {
+  .not-found-heading {
+    font-size: 16px;
+  }
+  .not-found-msg {
+    font-size: 12px;
+    text-align: center;
+    width: 90%;
+  }
+}
